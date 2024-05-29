@@ -1,0 +1,32 @@
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 34% 34% 3%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+.title{
+    font-family: "Cooper Black", serif;
+}
+.tile {
+    border: 3px solid black;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    font-family: impact, serif;
+
+}
+
+#display{
+    height:20px;
+    font-family: "Cooper Black", serif;
+    padding-bottom: 10px;
+}
+#Center{
+    text-align: center;
+}

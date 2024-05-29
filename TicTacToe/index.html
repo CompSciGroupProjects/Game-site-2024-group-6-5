@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body id="background" >
+
+
+
+
+
+
+<div id="Center">
+<section class="title">
+    <h1>Tic Tac Toe</h1>
+</section>
+<section id="display">
+
+</section>
+
+
+<section class="container">
+    <div id="00" class="tile" onclick="Add(0,0)"></div>
+    <div id="01" class="tile" onclick="Add(0,1)"></div>
+    <div id="02" class="tile" onclick="Add(0,2)"></div>
+    <div id="10" class="tile" onclick="Add(1,0)"></div>
+    <div id="11" class="tile" onclick="Add(1,1)"></div>
+    <div id="12" class="tile" onclick="Add(1,2)"></div>
+    <div id="20" class="tile" onclick="Add(2,0)"></div>
+    <div id="21" class="tile" onclick="Add(2,1)"></div>
+    <div id="22" class="tile" onclick="Add(2,2)"></div>
+</section>
+<section class="display announcer hide"></section>
+
+<section class="controls">
+    <button id="reset" onclick="reset()">Reset</button>
+    <button onclick="setMode(1)">One Player</button>
+    <button onclick="setMode(2)">Two Player</button>
+
+</section>
+</div>
+
+
+</body>
+</html>
