@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <main class="game">
+        <h1 class="game__title">Rock Paper Scissors</h1>
+        <div class="game__choices">
+            <button onclick="runGame('rock')" class="game__choice game__choice--rock">
+                Rock
+            </button>
+            <button onclick="runGame('paper')" class="game__choice game__choice--paper">
+                Paper
+            </button>
+            <button onclick="runGame('scissors')" class="game__choice game__choice--scissors">
+                Scissors
+            </button>
+        </div>
+        <p class="game__result hide">
+            Result: You chose <span id="player-choice">[PLAYER CHOICE]</span> | Computer chose: <span id="computer-choice">[COMPUTER CHOICE]</span> | <span id="result"></span>
+        </p>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
