@@ -1,0 +1,31 @@
+.nav
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: #151515;
+}
+
+.nav__pages
+{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav__page
+{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.nav__page:hover
+{
+    background-color: #1a1a1a;
+}
+
+.nav__page #active
+{
+    background-color: ;
+}
