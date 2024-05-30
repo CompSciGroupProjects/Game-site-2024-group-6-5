@@ -4,7 +4,9 @@
     top: 0;
     left: 0;
     right: 0;
+height: 40px;
 
+    padding-bottom: 5px;
     background-color: #151515;
 }
 
@@ -12,12 +14,15 @@
 {
     list-style-type: none;
     display: flex;
+
 }
 
 .nav__page
 {
     padding: 10px 20px;
     cursor: pointer;
+    color: white;
+
 }
 
 .nav__page:hover
@@ -27,5 +32,5 @@
 
 .nav__page #active
 {
-    background-color: ;
+    background-color: black;
 }

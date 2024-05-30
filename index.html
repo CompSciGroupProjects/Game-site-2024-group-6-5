@@ -5,22 +5,31 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
     <title>GROUP 6 - GAMES</title>
+    <script src="Script.js"></script>
 </head>
 <body>
     <nav class="nav">
         <ul class="nav__pages">
-            <li class="nav__page">Home</li>
-            <li class="nav__page">TicTacToe</li>
-            <li class="nav__page">Rock Paper Scissors</li>
-            <li class="nav__page">Connect 4</li>
+            <li><a class="nav__page">Home</a></li>
+            <li> <a href="TicTacToe" class="nav__page">TicTacToe</a></li>
+            <li><a href="RockPaperScissors" class="nav__page">Rock Paper Scissors </a></li>
+            <li> <a class="nav__page">Connect 4</a></li>
         </ul>
     </nav>
-    <main class="games">
-        <section class="game flow-sm">
+    <div class="gamerow">
+        <div class="gamebox">
             <h2 class="game__title">TicTacToe</h2>
+            <div class="SendToSub2" onclick="SendToRule1()">
+            <img class="game__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJd6tIrqyz0C3Quc9ohvlqK6DhvTXO2gJKQA&s" alt="TicTacToe Image">
+            </div>
+            <p class="game__desc">This is the game Description</p>
+
+        </div>
+        <div class="gamebox">
+            <h2 class="game__title">Rock Paper Scissors</h2>
             <img class="game__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJd6tIrqyz0C3Quc9ohvlqK6DhvTXO2gJKQA&s" alt="TicTacToe Image">
             <p class="game__desc">This is the game Description</p>
-        </section>
-    </main>
+        </div>
+    </div>
 </body>
 </html>
