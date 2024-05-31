@@ -84,7 +84,7 @@ const checkWinningCells = (cells) => {
   for (const cell of cells) {
     cell.classList.add('win');
   }
-  statusSpan.textContent = `${blueIsNext ? 'yellow' : 'Red'} has won!`
+  statusSpan.textContent = `${blueIsNext ? 'light Green' : 'dark dark green'} has won!`
   return true;
 };
 
