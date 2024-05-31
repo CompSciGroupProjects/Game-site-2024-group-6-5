@@ -1,0 +1,32 @@
+.Body{
+    background-color:#023E8A ;
+}
+.Whole{
+    color: #0077B6;
+    text-align: center;
+}
+.Title {
+    text-align: center;
+    font-size: 55px;
+    color: #0077B6;
+    padding-top: 150px;
+}
+div.Whole {
+    text-align: center;
+}
+
+ul.myUL {
+    display: inline-block;
+    text-align: left;
+}
+.Button{
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    color: #0077B6;
+    background-color: #092c5b;
+    cursor: pointer;
+}
+.Send{
+    text-align: center;
+}
