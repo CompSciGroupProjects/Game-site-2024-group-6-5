@@ -29,7 +29,7 @@ h1 {
 
 .cell {
   align-items: center;
-  background: darkblue;
+  background: #2F552B;
   display: flex;
   height: 100px;
   justify-content: center;
@@ -47,18 +47,18 @@ h1 {
  }
 
 .cell:not(.row-top).red::after {
-  background: red;
+  background: #181F1C;
 }
 .cell:not(.row-top).blue::after {
-  background: yellow;
+  background: #9EA93F;
 }
 
 .cell:not(.row-top).red.win {
-  background: red;
+  background:#181F1C;
 }
 
 .cell:not(.row-top).blue.win {
-  background: yellow;
+  background: #9EA93F;
 }
 
 .cell.row-top {
@@ -70,12 +70,12 @@ h1 {
 }
 
 .cell.row-top.red::after {
-  background: red;
+  background: #181F1C;
   border: 3px solid black;
 }
 
 .cell.row-top.blue::after {
-  background: yellow;
+  background: #9EA93F;
   border: 3px solid black;
 }
 
