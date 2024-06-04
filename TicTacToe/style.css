@@ -42,4 +42,11 @@
     border-width: 0px;
     border-radius: 15px;
     color: #e5383b;
+    transition: 300ms;
+    font-family: "Cooper Black", serif;
+}
+.Buttonstyle:hover{
+    scale: 105%;
+    box-shadow: 0px 5px 10px black;
+
 }
