@@ -1,5 +1,5 @@
 function SendToRule1(){
-    window.location.href = "TicTacToeRules";
+    window.location.href = "TicTactoeRules";
 
 }
 function SendToRule2(){
